@@ -1,0 +1,26 @@
+name: stat215a
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - llvm-openmp
+  - graphviz
+  - python-graphviz
+  - pip:
+    - numpy
+    - pandas
+    - matplotlib
+    - scikit-learn
+    - jupyterlab
+    - jupyter
+    - nbconvert
+    - ipywidgets
+    - ipython
+    - statsmodels
+    - seaborn
+    - xgboost
+    - pathlib
+
+# A local Tex compilation is required for LaTeX rendering in matplotlib. If you do not have a local Tex installation, you can use the following command to install a minimal Tex distribution:
+# -> brew install --cask mactex-no-gui
