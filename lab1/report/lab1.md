@@ -99,7 +99,7 @@ Main interpretation:
 - Vomiting and headache had lower observed rates.
 - These are descriptive associations and should not be interpreted as causal effects.
 
-[Insert Figure 1: Rate of Clinically Important TBI by Symptom]
+![Observed ciTBI rates by individual symptom.](figure1.png)
 
 ## 3.2 Second Finding: Symptom Combinations
 
@@ -130,7 +130,7 @@ Main interpretation:
 - The combination of loss of consciousness, vomiting, and altered mental status had the highest observed rate among the combinations examined.
 - These groups overlap; a two-symptom group may also include patients with additional symptoms.
 
-[Insert Figure 2: ciTBI Rates for Selected Symptom Combinations]
+![Observed ciTBI rates for selected symptom combinations.](figure2.png)
 
 ## 3.3 Reality Check
 
@@ -170,7 +170,9 @@ Interpretation:
 - The main finding was reasonably stable to this change in the minimum cell-size threshold.
 - The perturbation mainly affected smaller combinations rather than the overall pattern.
 
-[Insert before/after stability figures]
+![Symptom-combination ciTBI rates with minimum cell size = 30.](figure3.png)
+
+![Symptom-combination ciTBI rates with minimum cell size = 50.](figure4.png)
 
 ## 4. Modeling
 
@@ -280,7 +282,7 @@ The decision tree is also interpretable because its prediction process can be re
 
 Both models identified altered mental status as an important predictor.
 
-[Insert Decision Tree Figure]
+![Decision tree for predicting clinically important TBI.](figure5.png)
 
 ## 5. Conclusion
 
